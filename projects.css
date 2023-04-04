@@ -1,0 +1,168 @@
+* { box-sizing: border-box; }
+
+body {
+  background-color: #2F3443 !important;
+  font-family: 'Inter', sans-serif !important;
+  color: white !important;
+  margin: 0 !important;
+}
+
+h1{
+  margin-top: 0px;
+  margin-bottom: 300px;
+  font-size: 75px;
+}
+
+h2
+{
+  font-size: 35px;
+  margin-bottom: 40px !important;
+}
+
+p{
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+nav {
+  height: 50px !important;
+  padding: 20px !important;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none !important;
+  display: flex !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+li {
+  margin: 0 20px !important;
+}
+
+a {
+  color: #fff !important;
+  text-decoration: none !important;
+  font-size: 15px !important;
+  letter-spacing: 1px !important;
+  padding: 1px 0 !important;
+  border-bottom: 2px solid transparent !important;
+  transition: border-bottom 0.2s ease-in-out !important;
+  font-weight: 300 !important;
+}
+
+a:hover,
+a:active {
+  border-bottom: 2px solid #fff !important;
+}
+
+.reviewcard
+{
+  height: 1200px !important;
+  min-height: 400px;
+}
+
+.reviewblock
+{
+  display: block !important;
+  background-color: #1f222b;
+  padding: 20px;
+  border: #1a1a1a;
+  border-radius: 10px;
+  
+}
+
+.card
+{
+  width: 10%;
+  
+}
+
+/* Included color classes.. 
+	.red 
+	.blue 
+	.yellow
+	.green
+	.navy
+*/ 
+figure.snip1174 {
+  align-items: flex-start;
+  display: inline-flex;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 410px;
+  width: 100%;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-align: left;
+  border: #1a1a1a;
+  border-radius: 10px;
+  margin-left: 40px;
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.521));
+}
+figure.snip1174 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.snip1174 img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  vertical-align: top;
+  opacity: .3;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+figure.snip1174 figcaption {
+  position: absolute;
+  padding: 20px 25px;
+  top: 0;
+  left: 0;
+}
+figure.snip1174 h2,
+figure.snip1174 p {
+  margin: 0;
+  padding: 0;
+}
+figure.snip1174 h2 {
+  margin-bottom: 10px;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+figure.snip1174 p {
+  font-weight: 300;
+  margin-bottom: 20px;
+  line-height: 1.4em;
+}
+figure.snip1174 a {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+  opacity: 0;
+}
+
+
+
+@media only screen and (max-width: 500px){
+	/*Small smartphones [325px -> 500px]*/
+  figure.snip1174 
+  {
+    margin-left: 5px;
+  }
+}
