@@ -79,6 +79,18 @@ a:active {
   
 }
 
+.othercards
+{
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.gngcard
+{
+  display: inline-flex;
+}
+
 /* Included color classes.. 
 	.red 
 	.blue 
@@ -164,5 +176,26 @@ figure.snip1174 a {
   figure.snip1174 
   {
     margin-left: 5px;
+  }
+
+  .othercards
+  {
+    display: block;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+{
+  figure.snip1174 
+  {
+    align-content: center;
+  }
+
+  .othercards
+  {
+    display: block;
   }
 }
